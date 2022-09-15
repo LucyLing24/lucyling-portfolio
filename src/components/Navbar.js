@@ -3,15 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/girld.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { HiOutlineTag } from "react-icons/hi";
+import {BiUser} from "react-icons/bi";
+import {IoBonfireOutline} from "react-icons/io5";
 import {
-  AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -67,7 +64,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <IoBonfireOutline
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
@@ -90,7 +87,7 @@ function NavBar() {
                   to="/gallery"
                   onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Gallery
+                <HiOutlineTag style={{ marginBottom: "2px" }} /> Gallery
               </Nav.Link>
             </Nav.Item>
 
@@ -100,7 +97,7 @@ function NavBar() {
                   to="/about"
                   onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <BiUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 

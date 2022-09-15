@@ -13,7 +13,7 @@ html {
 
   --resume-background-color:linear-gradient(
           to bottom,
-          rgb(215, 253, 242),
+          rgb(210, 243, 233),
           rgb(255, 255, 255)
   );
 
@@ -25,6 +25,7 @@ html {
 
   --imp-text-color: #f589c2;
   --aboutme-text-color: rgb(255, 127, 58);
+  --project-text-color: rgb(194, 163, 231);
 }
 
 .purple {
@@ -32,6 +33,9 @@ html {
 }
 .orange {
   color: var(--aboutme-text-color) !important;
+}
+.pink {
+  color: var(--project-text-color) !important;
 }
 
 button:focus {
@@ -202,7 +206,7 @@ button:focus {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
-  color: #ffffff !important;
+  color: #1f1f1f !important;
   z-index: 1;
 }
 
@@ -277,7 +281,8 @@ button:focus {
   position: relative;
   width: 100%;
   z-index: -1;
-  padding-left:30px !important;
+  padding-left:10% !important;
+  padding-right:5% !important;
   padding-top: 30px !important;
 }
 
@@ -289,12 +294,12 @@ button:focus {
 
 .heading {
   font-size: 2em !important;
-  padding-left: 70px !important;
+  padding-left: 0% !important;
 }
 
 .heading-name {
   font-size: 3em !important;
-  padding-left:70px !important;
+  padding-left:0% !important;
 }
 
 .main-name {
@@ -488,8 +493,8 @@ button:focus {
 
 .project-card-view {
   color: rgba(51, 51, 51, 0.88) !important;
-  background-color: rgba(224, 223, 223, 0.66) !important;
-  border-color: rgba(224, 223, 223, 0.66) !important;
+  background-color: rgba(255, 255, 255, 0.66) !important;
+  border-color: rgba(255, 255, 255, 0.66) !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -544,13 +549,13 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #f589c2 !important;
-  border-color: rgba(183, 222, 106, 0) !important;
+  background-color: rgb(194, 163, 231) !important;
+  border-color: rgb(255, 255, 255) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #fd55ae !important;
+  background-color: rgb(149, 93, 211) !important;
   border-color: rgba(109, 32, 197, 0) !important;
 }
 .btn:focus {
@@ -558,7 +563,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: rgba(129, 129, 129, 0.58) !important;
+  color: rgb(31, 31, 31) !important;
   font-size: 3.6em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -776,4 +781,64 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+/* gallery part*/
+.gallery-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: #fd55ae !important;
+}
+
+.gallery-content {
+  padding: 5rem 0 0 !important;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+.carousel{
+  display: flex!important;
+  position: center!important;
+  flex-direction: row!important;
+  justify-content:center!important;
+  align-items:center!important;
+}
+
+.carousel .item {
+  border-radius: 2em !important;
+}
+
+.carousel-img {
+  max-height: 100em!important;
+  max-width: 100% !important;
+  border-radius: 2em !important;
+}
+
+.gallery-content{
+  display: flex!important;
+  position: center!important;
+  flex-direction: row!important;
+  justify-content:center!important;
+  align-items:center!important;
+}
+
+.gallery-wrap{
+  display: flex!important;
+  position: center!important;
+  flex-direction: row!important;
+  justify-content:center!important;
+}
+.gallery-column{
+  display: flex!important;
+  flex-direction: column!important;
+  padding-bottom: 5% !important;
+
+}
+.gallery-wrap .gallery-column img{
+  padding: 3%!important;
+  width: 100%;
+  border-radius: 3em!important;
 }
