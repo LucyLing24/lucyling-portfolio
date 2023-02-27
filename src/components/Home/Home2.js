@@ -5,9 +5,10 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineZhihu,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import {SiTencentqq} from "react-icons/si";
 
 function Home2() {
   return (
@@ -65,16 +66,25 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                    href="https://www.zhihu.com/people/linglong24"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineZhihu />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="tencent://message/?uin=1021314642&Site=&Menu=yes"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                >
+                  <SiTencentqq />
                 </a>
               </li>
             </ul>
-
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
