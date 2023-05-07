@@ -19,9 +19,20 @@ function Home2() {
             <p style={{fontSize: "4em"}}>
               <span className="purple"> ABOUT </span> ME
             </p>
-            <p className="home-about-body">
-             introduction here
-            </p>
+              <p style={{ textAlign: "left" ,color:"rgb(31,31,31)",fontSize:"large",marginLeft:"10vw"}}>
+                <p>
+                  🪪 MS Student at Tongji University. <b>HCI / Interaction design</b>.
+                </p>
+                <p>
+                  🎓 B.S. in CS at Soochow University. <b>GPA: 3.8/4, rank: top 5%</b>.
+                </p>
+                <p>
+                  🧸 Internship: Microsoft SDE, 2021 / 2022 -> ByteDance FE, 2023
+                </p>
+                <p>
+                  📨 Email me at: lucyling0224@gmail.com
+                </p>
+              </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -29,6 +40,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <br/><br/>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

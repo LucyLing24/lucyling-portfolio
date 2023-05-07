@@ -18,11 +18,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+                imgPath="https://user-images.githubusercontent.com/56916034/236677532-5e571507-8262-464a-927d-a4c29d18c2fd.png"
+                isBlog={false}
+                title="CEO Copilot"
+                description="This product is designed to help individuals who are interested in starting a business with the process of ideation, market research, and further product-market fit."
+                ghLink="https://github.com/LucyLing24/ceo-copilot-frontend/blob/main/README.md"
+                demoLink="https://ceo-copilot.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath="https://user-images.githubusercontent.com/56916034/236676749-6ea29c21-861d-474c-9355-3ce69aef8e88.png"
+                isBlog={false}
+                title="Surgical Treatment Digital Twin System"
+                description="Digital-twin System Enabled Deep Brain Stimulation Surgeries, including modeling the brain nuclei with Unity, embedding the React web page with Webgl, and achieving bidirectional communication between React and Webgl."
+                ghLink="https://github.com/LucyLing24/surgical-treatment-digital-twin-system"
+                demoLink="https://youtu.be/uXL2lHH6JdY"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={leisurely}
               isBlog={false}
-              title="Leisurely Self Discipline"
-              description="In order to improve the actual effect of self-discipline software, we creatively combine the game part and self-discipline punch in part, and realize lasting self-management under the external driving of moderate interest and game."
-              ghLink=""
+              title="Youyou Self Discipline (悠游自律)"
+              description="A check-in software that leverages the psychological basis of gaming addiction to promote self-discipline. Upon completing a custom task on the check-in page, users are rewarded with a game ticket to enhance motivation."
+              ghLink="https://github.com/LucyLing24/youyou-self-discipline"
               demoLink=""
             />
           </Col>
@@ -31,10 +53,32 @@ function Projects() {
             <ProjectCard
               imgPath={old}
               isBlog={false}
-              title="“Worry-free” Rescue System"
-              description="description here"
-              ghLink=""
-              demoLink=""
+              title="Worry-free Rescue System"
+              description="Help rescue teams find lost elderly people, including a collaborative rescue APP, a family report WeChat mini program, and a unified management website."
+              ghLink="https://github.com/LucyLing24/worry-free-intelligent-rescue-system"
+              demoLink="https://youtu.be/4hMyz3PjMEo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath="https://user-images.githubusercontent.com/56916034/236301558-5b39edb8-0de1-43c2-a7f7-fbebdfcaecfb.PNG"
+                isBlog={false}
+                title="CloudKnowledge Education Assistant App (云知教育)"
+                description="The CloudKnowledge Education Assistant App is an innovative platform that brings together all stakeholders of the education industry chain, including schools, institutions, teachers, and students. "
+                ghLink="https://github.com/LucyLing24/cloud-knowledge-education-assistant"
+                demoLink="https://youtu.be/cQ2KP-zJ2Ng"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath="https://user-images.githubusercontent.com/56916034/236677242-e7448eac-6dd1-4474-a26d-42cbcf2825a1.png"
+                isBlog={false}
+                title="Longting Restaurant Order Mini App"
+                description=""
+                ghLink=""
+                demoLink=""
             />
           </Col>
 
@@ -43,7 +87,7 @@ function Projects() {
               imgPath={ar}
               isBlog={false}
               title="AR Sandbox"
-              description="description here"
+              description=""
               ghLink=""
               demoLink=""
             />
