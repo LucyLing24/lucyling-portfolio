@@ -18,10 +18,10 @@ function AboutCard() {
               🎓 B.S. in CS at Soochow University. <b>GPA: 3.8/4, rank: top 5%</b>.
             </p>
             <p>
-              🧸 Internship: Microsoft SDE, 2021 / 2022 -> ByteDance FE, 2023
+              🧸 Internship: <b>Microsoft</b> SDE, 2021 / 2022 -> <b>ByteDance</b> FE, 2023
             </p>
             <p>
-              📨 Email me at: lucyling0224@gmail.com
+              📨 Email me at: <b>lucyling0224@gmail.com</b>
             </p>
           </p>
 

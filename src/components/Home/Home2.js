@@ -27,10 +27,10 @@ function Home2() {
                   🎓 B.S. in CS at Soochow University. <b>GPA: 3.8/4, rank: top 5%</b>.
                 </p>
                 <p>
-                  🧸 Internship: Microsoft SDE, 2021 / 2022 -> ByteDance FE, 2023
+                  🧸 Internship: <b>Microsoft</b> SDE, 2021 / 2022 -> <b>ByteDance</b> FE, 2023
                 </p>
                 <p>
-                  📨 Email me at: lucyling0224@gmail.com
+                  📨 Email me at: <b>lucyling0224@gmail.com</b>
                 </p>
               </p>
           </Col>
@@ -99,6 +99,14 @@ function Home2() {
             </ul>
             <p>
               Feel free to <span className="purple">connect </span>with me
+            </p>
+            <p>
+              My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
+                href="https://yanjieze.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="links"
+              > <b>his page</b></a>.
             </p>
           </Col>
         </Row>

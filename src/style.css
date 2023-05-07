@@ -406,6 +406,15 @@ button:focus {
   z-index: -1;
 }
 
+.links{
+  color: #84b1f3;
+  text-decoration:none;
+
+}
+.links:hover{
+  color: #2879de;
+}
+
 .home-social-icons:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #a6a6a6;
@@ -477,6 +486,7 @@ button:focus {
 /* Projects */
 /* --------- */
 .project-section {
+  min-height: 100vh;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -636,6 +646,7 @@ button:focus {
 /* --------- */
 
 .resume-section {
+  min-height: 100vh !important;
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;

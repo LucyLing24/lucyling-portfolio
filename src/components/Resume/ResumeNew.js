@@ -20,6 +20,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
+
         <Col md={12} style={{ paddingBottom: 20 }}>
           <img
               src={myStyle}
