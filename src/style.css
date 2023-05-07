@@ -280,6 +280,7 @@ button:focus {
 .home-section {
   position: relative;
   width: 100%;
+  min-height: 100vh;
   z-index: -1;
   padding-left:10% !important;
   padding-right:5% !important;

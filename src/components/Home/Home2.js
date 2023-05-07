@@ -9,16 +9,26 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {SiTencentqq} from "react-icons/si";
+import homeLogo from "../../Assets/cat.png";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={4} className="myAvtar">
 
-              <img src={myImg} className="img" alt="avatar" />
+          {/*<Col md={4} className="myAvtar">*/}
 
+          {/*    <img src={myImg} className="img" alt="avatar" />*/}
+
+          {/*</Col>*/}
+          <Col md={4} style={{ paddingBottom: 20 }}>
+            <img
+                src={myImg}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "900px" ,borderRadius:"6rem"}}
+            />
           </Col>
           <Col md={8} className="home-about-description">
             <p style={{fontSize: "4em"}}>
@@ -42,63 +52,65 @@ function Home2() {
                 </p>
               </p>
             <br/><br/>
-            <Col md={12} className="home-about-social">
-              <h1>FIND ME ON</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
 
-              <ul className="home-about-social-links">
-                <li className="social-icons">
-                  <a
-                      href="https://github.com/LucyLing24"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                    <AiFillGithub />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                      href="https://twitter.com/LucyLing24"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                      href="https://www.linkedin.com/in/lucyling24"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                      href="https://www.zhihu.com/people/linglong24"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                  >
-                    <AiOutlineZhihu />
-                  </a>
-                </li>
-              </ul>
-              <p>
-                Feel free to <span className="purple">connect </span>with me
-              </p>
-              <p>
-                My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
-                  href="https://yanjieze.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="links"
-              > <b>his page</b></a>.
-              </p>
-            </Col>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                    href="https://github.com/LucyLing24"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://twitter.com/LucyLing24"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://www.linkedin.com/in/lucyling24"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://www.zhihu.com/people/linglong24"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                >
+                  <AiOutlineZhihu />
+                </a>
+              </li>
+            </ul>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <p>
+              My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
+                href="https://yanjieze.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="links"
+            > <b>his page</b></a>.
+            </p>
           </Col>
         </Row>
         <br/><br/>
