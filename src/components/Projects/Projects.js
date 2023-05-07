@@ -31,9 +31,9 @@ function Projects() {
             <ProjectCard
                 imgPath="https://user-images.githubusercontent.com/56916034/236676749-6ea29c21-861d-474c-9355-3ce69aef8e88.png"
                 isBlog={false}
-                title="Surgical Treatment Digital Twin System"
+                title="Deep Brain Stimulation Surgeries Digital-twin System"
                 description="Digital-twin System Enabled Deep Brain Stimulation Surgeries, including modeling the brain nuclei with Unity, embedding the React web page with Webgl, and achieving bidirectional communication between React and Webgl."
-                ghLink="https://github.com/LucyLing24/surgical-treatment-digital-twin-system"
+                ghLink="https://github.com/LucyLing24/deep-brain-stimulation-surgeries-digital-twin-system"
                 demoLink="https://youtu.be/uXL2lHH6JdY"
             />
           </Col>
@@ -42,10 +42,10 @@ function Projects() {
             <ProjectCard
               imgPath={leisurely}
               isBlog={false}
-              title="Youyou Self Discipline (悠游自律)"
+              title="Youyou Self-discipline (悠游自律)"
               description="A check-in software that leverages the psychological basis of gaming addiction to promote self-discipline. Upon completing a custom task on the check-in page, users are rewarded with a game ticket to enhance motivation."
               ghLink="https://github.com/LucyLing24/youyou-self-discipline"
-              demoLink=""
+              demoLink="https://youtu.be/3k4A3mwBB-U"
             />
           </Col>
 

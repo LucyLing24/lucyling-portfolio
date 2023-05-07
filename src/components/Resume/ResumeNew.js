@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/linglong_cv.pdf";
+import pdf from "../../Assets/../Assets/lucyling_cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
