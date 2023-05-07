@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/girld.png";
+import myImg from "../../Assets/myPic.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,6 +15,11 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+          <Col md={4} className="myAvtar">
+
+              <img src={myImg} className="img" alt="avatar" />
+
+          </Col>
           <Col md={8} className="home-about-description">
             <p style={{fontSize: "4em"}}>
               <span className="purple"> ABOUT </span> ME
@@ -24,20 +29,18 @@ function Home2() {
                   🪪 MS Student at Tongji University. <b>HCI / Interaction design</b>.
                 </p>
                 <p>
-                  🎓 B.S. in CS at Soochow University. <b>GPA: 3.8/4, rank: top 5%</b>.
+                  🎓 B.S. in <b>CS</b> at Soochow University. <b>GPA: 3.8/4, rank: top 5%</b>.
                 </p>
                 <p>
-                  🧸 Internship: <b>Microsoft</b> SDE, 2021 / 2022 -> <b>ByteDance</b> FE, 2023
+                  🧸 Internship: <b>Microsoft</b> SDE, 2021 & 2022 -> <b>ByteDance</b> FE, 2022 & 2023
                 </p>
                 <p>
-                  📨 Email me at: <b>lucyling0224@gmail.com</b>
+                  📨 Email me at: <a href="mailto:lucyling24@gmail.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="links1">lucyling0224@gmail.com</a>
                 </p>
               </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
         <br/><br/>
@@ -84,16 +87,6 @@ function Home2() {
                     className="icon-colour home-social-icons"
                 >
                   <AiOutlineZhihu />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                    href="tencent://message/?uin=1021314642&Site=&Menu=yes"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                >
-                  <SiTencentqq />
                 </a>
               </li>
             </ul>

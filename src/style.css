@@ -333,7 +333,8 @@ button:focus {
 }
 
 .myAvtar .img{
-  max-height:12em;
+  border-radius: 4em;
+  max-height:32em;
 }
 
 @media (max-width: 767px) {
@@ -409,10 +410,18 @@ button:focus {
 .links{
   color: #84b1f3;
   text-decoration:none;
-
+  font-weight: bold;
 }
 .links:hover{
   color: #2879de;
+}
+.links1{
+  color: #ff89c6;
+  text-decoration:none;
+  font-weight: bold;
+}
+.links1:hover{
+  color: #ff89c6;
 }
 
 .home-social-icons:hover::before {
