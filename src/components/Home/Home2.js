@@ -41,68 +41,67 @@ function Home2() {
                                     className="links1">lucyling0224@gmail.com</a>
                 </p>
               </p>
+            <br/><br/>
+            <Col md={12} className="home-about-social">
+              <h1>FIND ME ON</h1>
+
+              <ul className="home-about-social-links">
+                <li className="social-icons">
+                  <a
+                      href="https://github.com/LucyLing24"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                      href="https://twitter.com/LucyLing24"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                  >
+                    <AiOutlineTwitter />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                      href="https://www.linkedin.com/in/lucyling24"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                      href="https://www.zhihu.com/people/linglong24"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                  >
+                    <AiOutlineZhihu />
+                  </a>
+                </li>
+              </ul>
+              <p>
+                Feel free to <span className="purple">connect </span>with me
+              </p>
+              <p>
+                My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
+                  href="https://yanjieze.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="links"
+              > <b>his page</b></a>.
+              </p>
+            </Col>
           </Col>
         </Row>
         <br/><br/>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/LucyLing24"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/LucyLing24"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/lucyling24"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                    href="https://www.zhihu.com/people/linglong24"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                >
-                  <AiOutlineZhihu />
-                </a>
-              </li>
-            </ul>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <p>
-              My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
-                href="https://yanjieze.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="links"
-              > <b>his page</b></a>.
-            </p>
-          </Col>
-        </Row>
       </Container>
     </Container>
   );
