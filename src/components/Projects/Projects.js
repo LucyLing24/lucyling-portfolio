@@ -18,6 +18,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+                imgPath="https://github.com/LucyLing24/digital-human-face-and-body-management-system/assets/56916034/f75964cd-28df-4fa1-ae96-f0eecf068a3c"
+                isBlog={false}
+                title="Digital Human Face and Body Management System"
+                description="This project focuses on the face and body movements of virtual digital human, and has realized the functions of face and Motion capture and emotion classification in the real world on the Web side, desktop side and Unreal Engine model side, as well as the binding of digital humans expressions based on cameras. "
+                ghLink="https://github.com/LucyLing24/digital-human-face-and-body-management-system"
+                demoLink="https://youtu.be/WLDir0Zd4wc"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath="https://user-images.githubusercontent.com/56916034/236677532-5e571507-8262-464a-927d-a4c29d18c2fd.png"
                 isBlog={false}
                 title="CEO Copilot"

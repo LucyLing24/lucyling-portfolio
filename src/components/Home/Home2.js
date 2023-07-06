@@ -103,14 +103,6 @@ function Home2() {
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <p>
-              My lover <span style={{color:"#84b1f3",fontWeight:"bold"}}>Yanjie Ze </span> is working on Reinforcement Learning, Robotics, and Computer Vision. Check out <a
-                href="https://yanjieze.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="links"
-            > <b>his page</b></a>.
-            </p>
           </Col>
         </Row>
         <br/><br/>
