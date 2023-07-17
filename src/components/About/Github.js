@@ -16,7 +16,7 @@ function Github() {
         fontSize={16}
       />
         <p align = "center" >
-            <img style={{width:"80vw"}} src = "https://github-readme-activity-graph.cyclic.app/graph?username=LucyLing24&theme=gruvbox&radius=64&bg_color=ffffff" />
+            <img style={{width:"80vw"}} src = "https://github-readme-activity-graph.vercel.app/graph?username=LucyLing24&theme=gruvbox&radius=64&bg_color=ffffff" />
         </p>
     </Row>
   );
